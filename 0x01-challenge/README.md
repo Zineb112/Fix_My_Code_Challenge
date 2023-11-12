@@ -1,11 +1,22 @@
-# React Blog
+# README
 
-Simple React Blog
+Blog application:
 
-### How to run 
+## How to install it:
 
-1. Install Gulp - `npm install -g gulp`
-2. `npm install` to install dependencies.
-3. Run `gulp build-all` to build the code.
-4. Run `gulp nodemon` to start the server.
-5. Go to http://localhost:5000/
+- `$ gem install bundler`
+- `$ bundle install`
+- `$ rails db:migrate RAILS_ENV=development`
+
+## How to run the server
+
+`$ rails s -b 0.0.0.0 -p 5000`
+
+## How to start the rails console
+
+`$ rails c`
+
+## Admin account
+
+- email: `hbtn@hbtn.io`
+- password: `toto1234`
